@@ -13,15 +13,22 @@ public class Main {
 		
 		PasswordEncorder pe = new PasswordEncorder();
 		
-		System.out.println("Please enter a password:");
+		while(true){
+			System.out.println("Please enter a password:");
 		
-		input = scanner.nextLine(); 
+			input = scanner.nextLine(); 
 		
-		input =pe.encode(input);
+			input =pe.encode(input);
 		
-		System.out.println(input);
+			if(input.equals("exit")){
+				break;
+			}
 		
-		
+			else{
+				System.out.println(input);
+			}
+		}
+		scanner.close();
 	}
 
 }
