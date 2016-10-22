@@ -3,7 +3,6 @@ package fcu.iecs.oop.password;
 public class PasswordEncorder {
 
 	
-	
 	public String encode(String password){
 		
 		password=password.replace('a', '4');

@@ -22,17 +22,15 @@ public class Main {
 			System.out.println("輸入number不可為0");
 		}
 		
-		for(int i=0;i<loop;i++){
-			
-			nt.tiida();
-			
+		else{
+			for(int i=0;i<loop;i++){
+				
+				nt.tiida();
+				
+			}
 		}
 		
-		
 		scanner.close();
-		
-		
-		
 		
 	}
 
