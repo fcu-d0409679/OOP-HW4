@@ -11,12 +11,12 @@ public class Main {
 
 		Scanner scanner = new Scanner(System.in);
 		
-		PasswordEncorder pe = new PasswordEncorder();
+		PasswordEncorder pe= new PasswordEncorder();
 		
 		while(true){
-			System.out.println("Please enter a password:");
+			System.out.println("Please enter a password(enter\"exit\" to exit):");
 		
-			input = scanner.nextLine(); 
+			input = scanner.next(); 
 		
 			input =pe.encode(input);
 		
